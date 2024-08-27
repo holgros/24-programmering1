@@ -7,12 +7,11 @@ else:
 
 # ett annat exempel
 e_gräns = 15
-'''
 poäng = int(input('Ange din provpoäng -> '))
 if poäng >= e_gräns:
    print("Godkänd!")            # Skriv endast ut om godkänd
 print("Programmet avslutas")    # Skriv ut oavsett om godkänd eller ej
-'''
+
 # jämförelseoperatorer
 print(1 < 2)    # True (mindre än)
 print(1 > 2)    # False (större än)
