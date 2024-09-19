@@ -1,6 +1,6 @@
 # EN LISTA KAN INNEHÅLLA ELEMENT AV FLERA OLIKA DATATYPER
 lista = [11, 2, 6, 8, 12, 3] # lista med heltal
-#lista = list("ett", False, 2.0, 2) # lista med flera datatyper
+lista = list(("ett", False, 2.0, 2)) # lista med flera datatyper
 lista = [] # en tom lista
 
 # ÅTKOMST AV ELEMENT VIA INDEX
@@ -48,7 +48,7 @@ lst_1 = [1, 2, 3]
 lst_2 = [4, 5, 6]
 lst_3 = [7, 8, 9]
 lst = [lst_1, lst_2, lst_3]
-print(lst)
+print(lst)  # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 borttagen_lista = lst.pop()
-print(borttagen_lista)
-print(lst)
+print(borttagen_lista)  # [7, 8, 9]
+print(lst)  # [[1, 2, 3], [4, 5, 6]]
